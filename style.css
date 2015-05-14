@@ -1,0 +1,109 @@
+span,h1{
+		font-family:arial,sans-serif;
+	}
+	h1{
+		text-shadow: white 1px 1px 1px;
+	}
+	h2{
+		font-family: arial,sans-serif;
+		margin: 0em 0em 0.5em 0em;
+	}
+	.input, textarea{
+		margin-top: 3px;
+		background: #F6F6F6;
+		color: #666;
+		padding: 5px;
+		border: 1px solid #B9B9B9;
+		border-top-color: #A4A4A4;
+		-moz-box-shadow: 0 1px 0 #fff,inset 0 1px 1px rgba(0,0,0,.17);
+		-ms-box-shadow: 0 1px 0 #fff,inset 0 1px 1px rgba(0,0,0,.17);
+		-webkit-box-shadow: 0 1px 0 #fff,inset 0 1px 1px rgba(0,0,0,.17);
+		box-shadow: 0 1px 0 #fff,inset 0 1px 1px rgba(0,0,0,.17);		
+	}
+	.button{
+		padding: 7px;
+		font-size: 13px;
+		color:white;
+		cursor:pointer;
+		border:0px solid white;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+	.generate{
+		padding: 7px;
+		font-size: 13px;
+		border-width:1px;
+		color:white;
+		background-color: #557CD1;
+		border-color: #304EA6 #304EA6 black;
+		text-shadow: 0 1px 0 rgba(0, 0, 0, .45);
+		-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+		-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+		-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+		box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+		background-image: -moz-linear-gradient(top,#557CD1 0,#304EA6 100%);
+		background-image: -ms-linear-gradient(top,#557CD1 0,#304EA6 100%);
+		background-image: -o-linear-gradient(top,#557CD1 0,#304EA6 100%);
+		background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#557CD1),color-stop(100%,#304EA6));
+		background-image: -webkit-linear-gradient(top,#557CD1 0,#304EA6 100%);
+		background-image: linear-gradient(to bottom,#557CD1 0,#304EA6 100%);
+		cursor:pointer;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+	.generate:hover{
+		color:white;
+		background-color: #304EA6;
+		border-color: #557CD1 #557CD1 black;
+		text-shadow: 0 1px 0 rgba(0, 0, 0, .45);
+		-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+		-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+		-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+		box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+		background-image: -moz-linear-gradient(top,#304EA6 0,#557CD1 100%);
+		background-image: -ms-linear-gradient(top,#304EA6 0,#557CD1 100%);
+		background-image: -o-linear-gradient(top,#304EA6 0,#557CD1 100%);
+		background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#304EA6),color-stop(100%,#557CD1));
+		background-image: -webkit-linear-gradient(top,#304EA6 0,#557CD1 100%);
+		background-image: linear-gradient(to bottom,#304EA6 0,#557CD1 100%);
+		cursor:pointer;
+	}
+	.reset{
+		border-width:1px;
+		background-color: #CCC;
+		border-color: #555 #555 black;
+		text-shadow: 0 1px 0 rgba(0, 0, 0, .45);
+		-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+		-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+		-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+		box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+		background-image: -moz-linear-gradient(top,#CCC 0,#555 100%);
+		background-image: -ms-linear-gradient(top,#CCC 0,#555 100%);
+		background-image: -o-linear-gradient(top,#CCC 0,#555 100%);
+		background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#CCC),color-stop(100%,#555));
+		background-image: -webkit-linear-gradient(top,#CCC 0,#555 100%);
+		background-image: linear-gradient(to bottom,#CCC 0,#555 100%);
+	}
+	.reset:hover{
+		background-color: #555;
+		border-color: #CCC #CCC black;
+		text-shadow: 0 1px 0 rgba(0, 0, 0, .45);
+		-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+		-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+		-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+		box-shadow: inset 0 1px 0 rgba(255,255,255,.45);
+		background-image: -moz-linear-gradient(top,#555 0,#CCC 100%);
+		background-image: -ms-linear-gradient(top,#555 0,#CCC 100%);
+		background-image: -o-linear-gradient(top,#555 0,#CCC 100%);
+		background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#555),color-stop(100%,#CCC));
+		background-image: -webkit-linear-gradient(top,#555 0,#CCC 100%);
+		background-image: linear-gradient(to bottom,#555 0,#CCC 100%);
+	}
+	.optionbox{
+		background-color:#FFF;
+		border:1px solid gray;
+		padding:1em;
+		margin: 1em 0px;
+	}
